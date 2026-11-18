@@ -1,0 +1,30 @@
+{
+  "name": "claude-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal voice-first AI assistant PWA (Tesla UI x Jarvis)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx serve out",
+    "lint": "tsc --noEmit",
+    "test": "vitest run",
+    "icons": "node scripts/generate-icons.mjs"
+  },
+  "dependencies": {
+    "next": "^16.4.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "sharp": "^0.34.0",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.6.0",
+    "vitest": "^5.1.1"
+  }
+}
